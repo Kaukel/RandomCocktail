@@ -1,0 +1,31 @@
+html {
+    background-color: #000000;
+    position: relative;
+}
+
+.reroll {
+    width: max-content;
+    padding-top: 0.5%;
+    min-height: 10vh;
+    margin: auto;
+    color: #efefef;
+    text-align: center;
+    font-size: 2.3rem;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.container {
+    padding: 0px 1.5vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5vw;
+    height: 85vh;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+
+.reroll:hover {
+    font-weight: 900;
+}

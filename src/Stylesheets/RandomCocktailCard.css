@@ -1,0 +1,88 @@
+:root {
+	font-size: 24px;
+}
+
+.small {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	color: #efefef;
+}
+
+.cardContainer {
+	width: 18vw;
+	padding: 0.2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+	box-sizing: border-box;
+	border: 0.1rem solid #ffd700;
+  cursor: pointer;
+}
+
+.drinkName {
+	font-size: 1.6rem;
+	max-height: 1.8rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.category {
+	font-size: 0.8rem;
+	max-height: 1rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	box-sizing: border-box;
+	border-top: 0.1rem solid #dfdfdf;
+	border-bottom: 0.1rem solid #dfdfdf;
+}
+
+.serve {
+	font-size: 0.8rem;
+	max-height: 1rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	box-sizing: border-box;
+}
+
+.drinkImage {
+	width: 100%;
+	margin: 0 auto;
+	aspect-ratio: 1 / 1;
+}
+
+.ingredientList {
+	padding-left: 1rem;
+	max-height: 4rem;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	box-sizing: border-box;
+	border-top: 0.1rem solid #dfdfdf;
+	border-bottom: 0.1rem solid #dfdfdf;
+}
+
+.ingredient {
+	font-size: 0.75rem;
+	padding-left: 0.3rem;
+	font-style: italic;
+}
+
+.instructions {
+	display: -webkit-box;
+	-webkit-line-clamp: 7;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-height: 8.2rem;
+}
+
+.cardContainer:hover {
+  box-shadow: 0px 0px 0.7rem#dfdfdf;
+}
